@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        h1{
+            color:red;
+            background-color: aqua;
+        }
+        .shape
+        {
+            height:200px;
+            width:200px;
+            border-radius: 0px;
+            background-color: red;
+            float:left;
+        }
+        .shape:hover{
+            height:200px;
+            width:200px;
+            border-radius:100%;
+            background-color: yellow;
+            transition: all 5s;
+
+        }
+        #selector
+        {
+            float:right;
+        }
+        #selector:hover{
+            height:200px;
+            width:200px;
+            border-radius: 100%;
+            transition: all 5s;
+        }
+        .combine
+        {
+            width:500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cascading Style Sheets</h1>
+    <div class="combine">
+    <div class="shape"></div>
+    <img src="42637.jpg" height="200px" width="200px" id="selector">
+    </div>
+    
+</body>
+</html>
